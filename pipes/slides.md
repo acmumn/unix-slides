@@ -34,11 +34,16 @@ How do we find this?
 
 #### `cat`
 
+`cat` con**cat**enates files.
+
 `cat FILE...`
 
 -----
 
 #### `grep`
+
+`grep` searches through files.
+(There's no mnemonic here.)
 
 `grep REGEX`
 
@@ -52,6 +57,8 @@ How do we convert the text?
 -----
 
 #### `tr`
+
+`tr` **tr**ansforms text.
 
 `tr FROM-CHARS TO-CHARS`
 
