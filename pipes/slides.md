@@ -1,5 +1,17 @@
 ## Unix Pipes and Filters
 
+-----
+
+### Given Files
+
+```bash
+git clone https://github.umn.edu/ringo025/unix-4.git
+
+# -or-
+
+git clone git@github.umn.edu:ringo025/unix-4.git
+```
+
 ---
 
 ### What are Filters?
@@ -93,7 +105,7 @@ nopqrstuvwxyzabcdefghijklm
 
 `problem4.txt` is a large text file with a bunch of text.
 
-We want to find the line of text that doesn't occur twice.
+We want to find the line of text that only occurs once.
 
 -----
 
