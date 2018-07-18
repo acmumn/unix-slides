@@ -5,7 +5,7 @@
  - SSH
  - `cd`, `ls`, `pwd`
  - `cat`, `nano`, `fgrep`
-  - We're teaching `fgrep` to avoid spending an hour teaching regexes now
+   - We're teaching `fgrep` to avoid spending an hour teaching regexes now
 
 ## Lecture 2: Git and GitHub
 
