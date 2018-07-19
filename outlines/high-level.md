@@ -4,6 +4,7 @@
 
  - SSH
  - `cd`, `ls`, `pwd`
+ - `less`, `man`
  - `cat`, `nano`, `fgrep`
    - We're teaching `fgrep` to avoid spending an hour teaching regexes now
 
