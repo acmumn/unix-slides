@@ -16,7 +16,7 @@
    - OpenSSH on Unix, PuTTY on Windows
    - We're discouraging Vole, since GUIs make you weak.
  - `cd`, `ls`, `pwd`
-   - Theory: The FS is a tree, absolute and relative paths, `~`
+   - Theory: The FS is a tree, absolute and relative paths, `~`, `.`, and `..`
    - Example: Probably just some directory traversals, followed by `pwd`/`ls`
    - Challenge: Find the files in the `lecture-1/foo/bar` directory.
  - `less`, `man`
