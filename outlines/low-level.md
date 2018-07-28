@@ -24,7 +24,7 @@
      rtfm-ing
    - Example: `man less`, `man 2 creat`, `less`ing some text file
    - Challenge: What does `printf`'s return value mean?
-     - TODO: We don't teach C until 2021; is there a better example?
+     - TODO: We don't teach C until 2021; is there a better example+challenge than `creat`+`printf`?
      - TODO: Ensure Nathan doesn't give a rant about how 19xx should be C and
        Scheme.
  - `cat`, `nano`, `fgrep`
