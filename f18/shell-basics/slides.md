@@ -40,8 +40,66 @@ Then go get pizza!
 
 ---
 
+## Navigating the Filesystem
+
+---
+
+The filesystem is a tree, with files and directories.
+
+```
+/
+  bin/
+  home/
+    you/
+      Documents/
+        file.txt
+    someone_else/
+  usr/
+```
+
+---
+
+Every process has a "current" directory. You can probably see it in your shell:
+
+```
+  /
+    bin/
+    home/
+*     you/ (also known as ~)
+        Documents/
+          file.txt
+      someone_else/
+    usr/
+```
+
+(Note: shells usually start in your home directory.)
+
+---
+
+`cd` means **c**hange **d**irectory.
+
+```
+  /
+    bin/
+    home/
+      you/
+*       Documents/
+          file.txt
+      someone_else/
+    usr/
+```
+
+---
+
+`ls` is short for **l**i**s**t.
+
+```
+```
+
+---
+
+  absolute and relative paths, `~`, `.`, and `..`, Hidden Files
  - `cd`, `ls`, `pwd`
-   - Theory: The FS is a tree, absolute and relative paths, `~`, `.`, and `..`, Hidden Files
    - Example: Probably just some directory traversals, followed by `pwd`/`ls`
    - Challenge: Find the files in the `lecture-1/foo/bar` directory.
 
