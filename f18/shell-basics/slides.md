@@ -1,4 +1,5 @@
-# Shell Basics
+# Unix Class 1: Shell Basics
+## By ACM UMN
 
 ---
 
@@ -31,11 +32,11 @@ Then go get pizza!
 Get the class files
 
 ```bash
-git clone https://github.umn.edu/TODO/lesson-1.git
+git clone https://github.umn.edu/acmumn/unix-f18-lesson-1.git
 
 # -or-
 
-git clone git@github.umn.edu:TODO/lesson-1.git
+git clone git@github.umn.edu:acmumn/unix-f18-lesson-1.git
 ```
 
 ---
@@ -44,13 +45,13 @@ The filesystem is a tree, with files and directories.
 
 ```
 /
-  bin/
-  home/
-    you/
-      Documents/
-        file.txt
-    someone_else/
-  usr/
+├── bin/
+├── home/
+│   ├── you/             (~)
+│   │   └── Documents/
+│   │       └── file.txt
+│   └── someone_else/
+└── usr/
 ```
 
 ---
@@ -58,14 +59,14 @@ The filesystem is a tree, with files and directories.
 Every process has a "current" directory. You can probably see it in your shell:
 
 ```
-  /
-    bin/
-    home/
-*     you/ (also known as ~)
-        Documents/
-          file.txt
-      someone_else/
-    usr/
+/
+├── bin/
+├── home/
+│   ├── you/             (~, .)
+│   │   └── Documents/
+│   │       └── file.txt
+│   └── someone_else/
+└── usr/
 ```
 
 Shells usually start in your home directory.
@@ -77,15 +78,14 @@ Shells usually start in your home directory.
 `.` is the current directory, `..` is one directory up.
 
 ```
-  /
-    bin/
-    home/
-~      you/
-..      Documents/
-.         csci8991/
-            file.txt
-      someone_else/
-    usr/
+/
+├── bin/
+├── home/
+│   ├── you/             (~)
+│   │   └── Documents/   (..)
+│   │       └── file.txt (.)
+│   └── someone_else/
+└── usr/
 ```
 
 ---
@@ -152,7 +152,9 @@ Goodbye!
 
 (See demonstration.)
 
-NOTE: Demo `less the-old-man-and-the-sea.txt`; `j`, `k`, `q`, `/` keybinds.
+NOTE:
+Explain pager = pages.
+Demo `less the-old-man-and-the-sea.txt`; `j`, `k`, `q`, `/` keybinds.
 
 ---
 
@@ -208,3 +210,7 @@ Run programs with `./<program>`
 ##### Try it yourself
 
 Try running your modified `hello_world.py`
+
+---
+
+If you have any other questions about CS or Unix, come to ACM UMN at KHKH 2-204
