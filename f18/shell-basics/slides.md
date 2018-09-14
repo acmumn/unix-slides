@@ -159,19 +159,39 @@ Don't need to search Google for everything
 
 ---
 
-`less` is the pager, which TODO
-
- - `less`, `man`
-   - Theory: What does "pager" mean, `j`/`k`/`q` keybinds, the importance of
-     rtfm-ing
-   - Example: `man less`, `man 2 creat`, `less`ing some text file
-   - Challenge: How do you make `grep` case-insensitive.
-
----
-
  - `cat`, `nano`, `fgrep`
    - Theory: Not much, other than noting that `grep` exists, and suggesting
      reading the manpage if one wants to learn now.
    - Example: `grep foo large-text-file.txt`, `nano buggy.c`, `cat short-file`
    - Challenge: Change `hello_world.py` to print `"Goodbye, world"` instead,
      using only the CLI.
+
+---
+
+`cat` writes files to standard output.
+
+If you give it multiple files as arguments, it will con**cat**enate them.
+
+```
+$ cat hello.txt
+Hello!
+$ cat goodbye.txt
+Goodbye!
+$ cat hello.txt goodbye.txt
+Hello!
+Goodbye!
+```
+
+---
+
+`less` is the pager, which is used to display long outputs in pages.
+
+---
+
+`less` is the pager, which is used to display long outputs in pages.
+
+ - `less`, `man`
+   - Theory: What does "pager" mean, `j`/`k`/`q` keybinds, the importance of
+     rtfm-ing
+   - Example: `man less`, `man 2 creat`, `less`ing some text file
+   - Challenge: How do you make `grep` case-insensitive.
