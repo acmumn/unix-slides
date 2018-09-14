@@ -11,7 +11,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="slides.md" data-charset="utf-8">
+				<section data-charset="utf-8" data-markdown="slides.md" data-separator-notes="^NOTE:">
 				</section>
 			</div>
 		</div>
@@ -21,6 +21,7 @@
 				dependencies: [
 					{ src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js" },
 					{ src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js" },
+					{ src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js", async: true },
 				],
 				markdown: {
 					smartypants: true,

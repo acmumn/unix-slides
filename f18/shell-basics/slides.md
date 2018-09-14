@@ -6,9 +6,7 @@
 
 #### Windows
 
- - Download a client
-   - Nathan recommends PuTTY
-   - Michael recommends MobaXterm
+Get a client (PuTTY / MobaXterm)
 
 -----
 
@@ -24,7 +22,13 @@ ssh X500@csel-khROOM-MACHINE.cselabs.umn.edu
 # MACHINE = 0 ... 20
 ```
 
+-----
+
+Then go get pizza!
+
 ---
+
+Get the class files
 
 ```bash
 git clone https://github.umn.edu/ringo025/unix-4.git
@@ -33,14 +37,6 @@ git clone https://github.umn.edu/ringo025/unix-4.git
 
 git clone git@github.umn.edu:ringo025/unix-4.git
 ```
-
------
-
-Then go get pizza!
-
----
-
-## Navigating the Filesystem
 
 ---
 
@@ -132,39 +128,7 @@ etc...
 
 ##### Try it yourself
 
-Download the files and locate the files inside:
-
-- `lesson-1/foo/bar`
-
----
-
-cat: for con**cat**enate
-
-```
-$ cat hello.txt
-hello!
-```
-
----
-
-##### Try it yourself
-
-Print the contents of the files using the terminal!
-
----
-
-man: manual pages
-
-Don't need to search Google for everything
-
----
-
- - `cat`, `nano`, `fgrep`
-   - Theory: Not much, other than noting that `grep` exists, and suggesting
-     reading the manpage if one wants to learn now.
-   - Example: `grep foo large-text-file.txt`, `nano buggy.c`, `cat short-file`
-   - Challenge: Change `hello_world.py` to print `"Goodbye, world"` instead,
-     using only the CLI.
+List the files inside `lesson-1/foo/bar`
 
 ---
 
@@ -185,6 +149,40 @@ Goodbye!
 ---
 
 `less` is the pager, which is used to display long outputs in pages.
+
+(See demonstration.)
+
+NOTE: Demo `less the-old-man-and-the-sea.txt`; `j`, `k`, `q`, `/` keybinds.
+
+---
+
+##### Try it yourself
+
+Read the files in `lesson-1/foo/bar` using the terminal!
+
+---
+
+`man` is a viewer for **man**ual pages
+
+This is mainly good when you want to know how to use a tool, or a C library function.
+
+NOTE: Demo `man less`, `man creat`
+
+---
+
+##### Try it yourself
+
+How do we get searches in `less` to be case-insensitive?
+(Find the answer in `man less`.)
+
+---
+
+ - `nano`, `fgrep`
+   - Theory: Not much, other than noting that `grep` exists, and suggesting
+     reading the manpage if one wants to learn now.
+   - Example: `grep foo large-text-file.txt`, `nano buggy.c`, `cat short-file`
+   - Challenge: Change `hello_world.py` to print `"Goodbye, world"` instead,
+     using only the CLI.
 
 ---
 
