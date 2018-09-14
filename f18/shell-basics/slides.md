@@ -72,19 +72,22 @@ Every process has a "current" directory. You can probably see it in your shell:
     usr/
 ```
 
-(Note: shells usually start in your home directory.)
+Shells usually start in your home directory.
 
 ---
 
 `cd` means **c**hange **d**irectory.
 
+`.` is the current directory, `..` is one directory up.
+
 ```
   /
     bin/
     home/
-      you/
-*       Documents/
-          file.txt
+~      you/
+..      Documents/
+.         csci8991/
+            file.txt
       someone_else/
     usr/
 ```
@@ -94,6 +97,14 @@ Every process has a "current" directory. You can probably see it in your shell:
 `ls` is short for **l**i**s**t.
 
 ```
+file.txt
+```
+
+`ls -l` gives more information.
+
+```
+total 4
+-rw-r--r-- 1 nathan nathan 1013 Sep 13 19:14 file.txt
 ```
 
 ---
@@ -105,14 +116,13 @@ Every process has a "current" directory. You can probably see it in your shell:
 
 ---
 
+`less` is the pager, which TODO
+
  - `less`, `man`
    - Theory: What does "pager" mean, `j`/`k`/`q` keybinds, the importance of
      rtfm-ing
    - Example: `man less`, `man 2 creat`, `less`ing some text file
-   - Challenge: What does `printf`'s return value mean?
-     - TODO: We don't teach C until 2021; is there a better example+challenge than `creat`+`printf`?
-     - TODO: Ensure Nathan doesn't give a rant about how 19xx should be C and
-       Scheme.
+   - Challenge: How do you make `grep` case-insensitive.
 
 ---
 
