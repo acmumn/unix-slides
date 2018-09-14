@@ -31,11 +31,11 @@ Then go get pizza!
 Get the class files
 
 ```bash
-git clone https://github.umn.edu/ringo025/unix-4.git
+git clone https://github.umn.edu/TODO/lesson-1.git
 
 # -or-
 
-git clone git@github.umn.edu:ringo025/unix-4.git
+git clone git@github.umn.edu:TODO/lesson-1.git
 ```
 
 ---
@@ -105,12 +105,12 @@ total 4
 
 ---
 
-Any file that starts with a dot (.) is a _hidden file_.
+Any file that starts with a dot (`.`) is a _hidden file_.
 
 Show hidden files with `-a`.
 
 <table><thead>
-<tr><th>Without -a</th><th>With -a</th></tr>
+<tr><th>Without <pre>-a</pre></th><th>With <pre>-a</pre></th></tr>
 </thead><tbody>
 <tr><td><pre>Desktop
 Documents
@@ -177,19 +177,24 @@ How do we get searches in `less` to be case-insensitive?
 
 ---
 
- - `nano`, `fgrep`
-   - Theory: Not much, other than noting that `grep` exists, and suggesting
-     reading the manpage if one wants to learn now.
-   - Example: `grep foo large-text-file.txt`, `nano buggy.c`, `cat short-file`
-   - Challenge: Change `hello_world.py` to print `"Goodbye, world"` instead,
-     using only the CLI.
+`fgrep` allows searching for strings in a file.
+
+NOTE:
+State that it's a simpler version of the more powerful `grep`, which we'll discuss later.
+Demo searching for `DiMaggio`.
 
 ---
 
-`less` is the pager, which is used to display long outputs in pages.
+##### Try it yourself
 
- - `less`, `man`
-   - Theory: What does "pager" mean, `j`/`k`/`q` keybinds, the importance of
-     rtfm-ing
-   - Example: `man less`, `man 2 creat`, `less`ing some text file
-   - Challenge: How do you make `grep` case-insensitive.
+Pedrico gets a gift -- what is it?
+
+---
+
+`nano` is a (pretty crap [cue angry Louis]) text editor.
+
+---
+
+##### Try it yourself
+
+Change `hello_world.py` to instead print `Goodbye, world!`
