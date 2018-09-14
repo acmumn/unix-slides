@@ -109,10 +109,53 @@ total 4
 
 ---
 
-  absolute and relative paths, `~`, `.`, and `..`, Hidden Files
- - `cd`, `ls`, `pwd`
-   - Example: Probably just some directory traversals, followed by `pwd`/`ls`
-   - Challenge: Find the files in the `lecture-1/foo/bar` directory.
+Any file that starts with a dot (.) is a _hidden file_.
+
+Show hidden files with `-a`.
+
+<table><thead>
+<tr><th>Without -a</th><th>With -a</th></tr>
+</thead><tbody>
+<tr><td><pre>Desktop
+Documents
+Pictures</pre></td><td><pre>.bash_history
+.bash_profile
+.bashrc
+Desktop
+Documents
+Pictures
+etc...
+</pre></td></tr>
+</tbody></table>
+
+---
+
+##### Try it yourself
+
+Download the files and locate the files inside:
+
+- `lesson-1/foo/bar`
+
+---
+
+cat: for con**cat**enate
+
+```
+$ cat hello.txt
+hello!
+```
+
+---
+
+##### Try it yourself
+
+Print the contents of the files using the terminal!
+
+---
+
+man: manual pages
+
+Don't need to search Google for everything
 
 ---
 
