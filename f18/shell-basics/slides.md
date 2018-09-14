@@ -191,10 +191,20 @@ Pedrico gets a gift -- what is it?
 
 ---
 
-`nano` is a (pretty crap [cue angry Louis]) text editor.
+`nano` is a (pretty crap) text editor.
 
 ---
 
 ##### Try it yourself
 
 Change `hello_world.py` to instead print `Goodbye, world!`
+
+---
+
+Run programs with `./<program>`
+
+---
+
+##### Try it yourself
+
+Try running your modified `hello_world.py`
