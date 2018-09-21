@@ -147,14 +147,56 @@ Create a **new commit** that undoes all of the previous commit's changes.
 
 ---
 
- - `branch`
- - `branch -d`
- - `checkout`
- - `checkout -b`
- - `merge` (no alg. deep dive)
- - `rebase`
- - `stash`
- - `tag`
+# Branch Model
+## List Branches/Tags
+
+`git branch`
+
+`git branch -a`
+
+`git tag`
+
+---
+
+# Branch Model
+## Deleting Branches
+
+`git branch -d {BRANCH}`
+
+---
+
+# Branch Model
+## Switching Branches
+
+`git checkout {BRANCH}`
+
+---
+
+# Branch Model
+## Create a New Branch
+
+`git checkout -b {BRANCH}`
+
+---
+
+# Branch Model
+## Merge
+
+`git merge {BRANCH}`
+
+---
+
+# Branch Model
+## Rebasing
+
+`git rebase {BRANCH}`
+
+---
+
+# Branch Model
+## Creating Tags
+
+`git tag`
 
 ---
 
