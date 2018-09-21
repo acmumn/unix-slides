@@ -123,8 +123,10 @@ tmp/
 
 ## `checkout`
 
-  - Switch to a different branch (or commit)
-  - For nuking uncommit
+ - Switch to a different ref
+   - `git checkout {REF}`
+ - Delete uncommitted changes
+   - `git checkout {REF} {FILE}`
 
 ---
 
@@ -132,18 +134,23 @@ tmp/
 
 Show a diff of changes.
 
+`git diff`
+
+`git diff {REF}`
+
 ---
 
 ## `reset`
 
-  - `--soft` Unstages files.
-  - `--hard` Get rid of added changes
+`git reset main.c`
 
 ---
 
 ## `revert`
 
-Create a **new commit** that undoes all of the previous commit's changes.
+`git revert {REF}`
+
+Create a *new commit* that undoes all of the previous commit's changes.
 
 ---
 
