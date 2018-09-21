@@ -121,13 +121,29 @@ tmp/
 
 ---
 
- - `checkout`
+## `checkout`
+
+  - Switch to a different branch (or commit)
   - For nuking uncommit
-  - For switching branches
- - `diff`
- - `reset`
-  - Get rid of added changes
- - `revert`
+
+---
+
+## `diff`
+
+Show a diff of changes.
+
+---
+
+## `reset`
+
+  - `--soft` Unstages files.
+  - `--hard` Get rid of added changes
+
+---
+
+## `revert`
+
+Create a **new commit** that undoes all of the previous commit's changes.
 
 ---
 
