@@ -122,11 +122,11 @@ tmp/
 ---
 
  - `checkout`
-  - For nuking uncommit
-  - For switching branches
+   - For nuking uncommit
+   - For switching branches
  - `diff`
  - `reset`
-  - Get rid of added changes
+   - Get rid of added changes
  - `revert`
 
 ---
