@@ -30,11 +30,11 @@ Or, The Power of Modal Editing
 
 #### The ADM-3A Terminal
 
-![](http://www.catonmat.net/images/why-vim-uses-hjkl/lsi-adm-3a.jpg)
+![](http://imgur.com/S4kbdjA.png)
 
 ---
 
-![](http://www.catonmat.net/images/why-vim-uses-hjkl/lsi-adm3a-full-keyboard.jpg)
+![](http://imgur.com/bzdCXEf.png)
 
 ---
 
@@ -124,7 +124,7 @@ Or, The Power of Modal Editing
 
 -	`[repetitions]` might be
 -	`[base command]` might be `c` or `d`
--	`[location]` might be `$` or `gn`
+-	`[location]` might be `$`, `j` or `gn`
 
 ---
 
