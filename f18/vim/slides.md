@@ -86,10 +86,10 @@ Or, The Power of Modal Editing
 -	`b(an)*` matches:
 	-	`b`
 	-	`ban`
-	-	`banana`
-	-	but not `banann`
--	`b[an]*` matches `banann`, but not `ban ann`
--	`b[ an]+` matches `ban ann`, but not `b`
+	-	`banan`
+	-	but not `banana`
+-	`b[an]*` matches `banana`, but not `ban ann`
+-	`b[ an]+` matches `banana` and `ban ann`, but not `b`
 
 ---
 
