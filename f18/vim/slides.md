@@ -120,41 +120,29 @@ Or, The Power of Modal Editing
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 -	Delete one character with `x`
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 -	Delete one character with `x`
@@ -162,11 +150,8 @@ Or, The Power of Modal Editing
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 -	Delete one character with `x`
@@ -176,11 +161,8 @@ Or, The Power of Modal Editing
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 -	Delete one character with `x`
@@ -192,11 +174,8 @@ Or, The Power of Modal Editing
 
 ---
 
-### Normal Mode
+### More Normal Mode Commands
 
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
 -	Delete one character with `x`
