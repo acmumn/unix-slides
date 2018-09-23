@@ -257,3 +257,10 @@ Or, The Power of Modal Editing
 -	`:bn` to go the the **n**ext **b**uffer
 -	`:bp` to go the the **p**revious **b**uffer
 -	`:bd` to **d**elete (close) the current **b**uffer
+
+---
+
+### Learning More
+
+-	`:help`
+-	`vimtutor`
