@@ -53,14 +53,6 @@ Or, The Power of Modal Editing
 
 ---
 
-### Normal Mode
-
--	Movement with `hjkl`
--	Change to insert mode with `i`
--	Change to replace mode with `R`
-
----
-
 ### Searching
 
 -	Use `/` to search by regex
