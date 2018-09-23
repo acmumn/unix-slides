@@ -7,7 +7,7 @@ Or, The Power of Modal Editing
 
 ### What is Modal Editing?
 
-> Every once in a while, a mistaken sequence of actions will result in someone entering 'non-visual mode'; all the windows go blank, and a directional sonar pops up.
+> Pressing one button would put your car into a mode where the steering wheel was connected to the rest of the steering mechanism. Pressing another button would put your car into another mode where it would control the radio dial. It would be impossible to steer and change stations at the same time.
 >
 > -- WikiWikiWeb's `IfYourCarWereVim` Article
 
@@ -45,10 +45,6 @@ Or, The Power of Modal Editing
 
 ---
 
-### Insert Mode
-
----
-
 ### Normal Mode
 
 -	Movement with `hjkl`
@@ -57,7 +53,11 @@ Or, The Power of Modal Editing
 
 ---
 
-### Replace Mode
+### Normal Mode
+
+-	Movement with `hjkl`
+-	Change to insert mode with `i`
+-	Change to replace mode with `R`
 
 ---
 
@@ -154,6 +154,65 @@ Or, The Power of Modal Editing
 -	Change to replace mode with `R`
 -	Delete with `d`
 -	Change with `c`
+-	Delete one character with `x`
+
+---
+
+### Normal Mode
+
+-	Movement with `hjkl`
+-	Change to insert mode with `i`
+-	Change to replace mode with `R`
+-	Delete with `d`
+-	Change with `c`
+-	Delete one character with `x`
+-	Substitute with `s`
+
+---
+
+### Normal Mode
+
+-	Movement with `hjkl`
+-	Change to insert mode with `i`
+-	Change to replace mode with `R`
+-	Delete with `d`
+-	Change with `c`
+-	Delete one character with `x`
+-	Substitute with `s`
+-	"Yank" (copy) with `y`
+-	Paste with `p`
+
+---
+
+### Normal Mode
+
+-	Movement with `hjkl`
+-	Change to insert mode with `i`
+-	Change to replace mode with `R`
+-	Delete with `d`
+-	Change with `c`
+-	Delete one character with `x`
+-	Substitute with `s`
+-	"Yank" (copy) with `y`
+-	Paste with `p`
+-	Undo with `u`
+-	Redo with `^r`
+
+---
+
+### Normal Mode
+
+-	Movement with `hjkl`
+-	Change to insert mode with `i`
+-	Change to replace mode with `R`
+-	Delete with `d`
+-	Change with `c`
+-	Delete one character with `x`
+-	Substitute with `s`
+-	"Yank" (copy) with `y`
+-	Paste with `p`
+-	Undo with `u`
+-	Redo with `^r`
 -	Repeat last command with `.`
 
 ---
@@ -161,4 +220,69 @@ Or, The Power of Modal Editing
 ### Command Mode
 
 -	Hit `:`
--	e.g. `:w`, `:q`, `:wq`
+-	`:w` to save
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+-	`:wq` to save and quit
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+-	`:r !<cmd>` to read in the output of a command
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+-	`:r !<cmd>` to read in the output of a command
+-	`:e <path>` to open a file
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+-	`:r !<cmd>` to read in the output of a command
+-	`:e <path>` to open a file
+-	`:bn` to go the the **n**ext **b**uffer
+-	`:bp` to go the the **p**revious **b**uffer
+-	`:bd` to **d**elete (close) the current **b**uffer
