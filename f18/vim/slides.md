@@ -5,6 +5,26 @@ Or, The Power of Modal Editing
 
 ---
 
+### SSH into CSELabs
+
+<img src="https://imgur.com/DQFGvXn.png"></img>
+
+---
+
+```
+ssh X500@csel-khROOM-NUM.cselabs.umn.edu
+
+X500 = Your Internet ID
+ROOM = 1250, 4240, 4250
+NUM = 01 .. 20
+```
+
+---
+
+Then go get pizza!
+
+---
+
 ### What is Modal Editing?
 
 > Pressing one button would put your car into a mode where the steering wheel was connected to the rest of the steering mechanism. Pressing another button would put your car into another mode where it would control the radio dial. It would be impossible to steer and change stations at the same time.
@@ -69,11 +89,11 @@ Or, The Power of Modal Editing
 
 -	**Reg**ular **Ex**pressions
 -	Metacharacters
-	-	Repeats
-		-	`?` -- 0-1
-		-	`*` -- 0-&infin;
-		-	`+` -- 1-&infin;
 	-	`.` -- Any Character
+	-	Repeats
+		-	`?`: 0-1
+		-	`*`: 0-&infin;
+		-	`+`: 1-&infin;
 	-	`[pq]` -- P or Q
 	-	`[a-z]` -- Any lowercase letter
 	-	`()` for grouping
