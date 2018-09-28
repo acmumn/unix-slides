@@ -25,6 +25,14 @@ Then go get pizza!
 
 ---
 
+Get the Given Files
+
+```
+curl -L https://z.umn.edu/acmf18vim -o main.c
+```
+
+---
+
 ### What is Modal Editing?
 
 > Pressing one button would put your car into a mode where the steering wheel was connected to the rest of the steering mechanism. Pressing another button would put your car into another mode where it would control the radio dial. It would be impossible to steer and change stations at the same time.
