@@ -9,7 +9,7 @@ Or, The Power of Modal Editing
 
 <img src="https://imgur.com/DQFGvXn.png"></img>
 
----
+-----
 
 ```
 ssh X500@csel-khROOM-NUM.cselabs.umn.edu
@@ -19,7 +19,7 @@ ROOM = 1250, 4240, 4250
 NUM = 01 .. 20
 ```
 
----
+-----
 
 Then go get pizza!
 
@@ -120,23 +120,17 @@ Then go get pizza!
 
 ---
 
+#### For More Info
+
+`man 7 regex`
+
+---
+
 ### Locations in Vim
 
 -	Beginning of Line: `0`
 -	End of Line: `$`
 -	Next Search Result: `gn`
-
----
-
-### Composite Vim Commands
-
-```
-(repetitions)(base command)(location)?
-```
-
--	`[repetitions]` might be
--	`[base command]` might be `c` or `d`
--	`[location]` might be `$`, `j` or `gn`
 
 ---
 
@@ -208,17 +202,29 @@ Then go get pizza!
 
 ---
 
-### Command Mode
+### Composite Vim Commands
 
--	Hit `:`
--	`:w` to save
+```
+(repetitions)(base command)(location)?
+```
+
+-	`[repetitions]` might be
+-	`[base command]` might be `c` or `d`
+-	`[location]` might be `$`, `j` or `gn`
 
 ---
 
 ### Command Mode
 
 -	Hit `:`
--	`:w` to save
+-	`:w` (short for `:write`) to save
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` (short for `:write`) to save
 -	`:q` to quit
 
 ---
@@ -226,54 +232,54 @@ Then go get pizza!
 ### Command Mode
 
 -	Hit `:`
--	`:w` to save
--	`:q` to quit
--	`:wq` to save and quit
-
----
-
-### Command Mode
-
--	Hit `:`
--	`:w` to save
--	`:q` to quit
--	`:wq` to save and quit
--	`:r <path>` to read in a file
-
----
-
-### Command Mode
-
--	Hit `:`
--	`:w` to save
+-	`:w` (short for `:write`) to save
 -	`:q` to quit
 -	`:wq` to save and quit
--	`:r <path>` to read in a file
--	`:r !<cmd>` to read in the output of a command
 
 ---
 
 ### Command Mode
 
 -	Hit `:`
--	`:w` to save
+-	`:w` (short for `:write`) to save
 -	`:q` to quit
 -	`:wq` to save and quit
 -	`:r <path>` to read in a file
--	`:r !<cmd>` to read in the output of a command
--	`:e <path>` to open a file
 
 ---
 
 ### Command Mode
 
 -	Hit `:`
--	`:w` to save
+-	`:w` (short for `:write`) to save
 -	`:q` to quit
 -	`:wq` to save and quit
 -	`:r <path>` to read in a file
 -	`:r !<cmd>` to read in the output of a command
--	`:e <path>` to open a file
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` (short for `:write`) to save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+-	`:r !<cmd>` to read in the output of a command
+-	`:e <path>` to edit a file
+
+---
+
+### Command Mode
+
+-	Hit `:`
+-	`:w` to (short for `:write`) save
+-	`:q` to quit
+-	`:wq` to save and quit
+-	`:r <path>` to read in a file
+-	`:r !<cmd>` to read in the output of a command
+-	`:e <path>` to edit a file
 -	`:bn` to go the the **n**ext **b**uffer
 -	`:bp` to go the the **p**revious **b**uffer
 -	`:bd` to **d**elete (close) the current **b**uffer
